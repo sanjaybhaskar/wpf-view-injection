@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo", "PrismDemo\PrismDemo.csproj", "{3E9A7BF1-7018-4DE4-867A-1EF88CDE7F24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{47F40C4D-40BF-4999-B798-E0CD573D361D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "Modules\ModuleA\ModuleA.csproj", "{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo.Core", "PrismDemo.Core\PrismDemo.Core.csproj", "{846EAD82-B7E6-47BC-99D7-A8703077E454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9A7BF1-7018-4DE4-867A-1EF88CDE7F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9A7BF1-7018-4DE4-867A-1EF88CDE7F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9A7BF1-7018-4DE4-867A-1EF88CDE7F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9A7BF1-7018-4DE4-867A-1EF88CDE7F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846EAD82-B7E6-47BC-99D7-A8703077E454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846EAD82-B7E6-47BC-99D7-A8703077E454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846EAD82-B7E6-47BC-99D7-A8703077E454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846EAD82-B7E6-47BC-99D7-A8703077E454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA1A50E4-3B3E-4E2A-B326-BC353590B1D9} = {47F40C4D-40BF-4999-B798-E0CD573D361D}
+	EndGlobalSection
+EndGlobal
